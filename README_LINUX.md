@@ -1,19 +1,3 @@
-**Python Packages (pip install)**
-
-* numpy
-* pandas
-* matplotlib
-* numba
-* ipython
-* h5py
-* networkx
-* tables
-* wdmtoolbox (also installed baker, tstoolbox)
-* hspftoolbox
-
-**Optional**
-
-* HDF5 binary utilities from hdfgroup.org
 
 
 ## USING HSP2 on Linux and MacOS:
@@ -34,3 +18,20 @@ ALL the remaining directories are WINDOWS only to support the Tim Cera wdtoolbox
 'Bugs' reported to Tim and acknowledged to be errors - but not fixed during my development cycle.
 Failure to run.  Tim apparently developed these tools in a Linux  development environment and didn't test the Windows versions.  The Python distribution tools he used assumed that a  Fortran compiler was available on the Windows machine. Sometimes, he did release a precompiled file - but it still assumed that certain compiler DLLs were available at runtime.  So things always worked on my POD/RESPEC machine which had a full Microsoft development system and failed when Jason tried to use HSP2. So I made a collection of files with a bug patch and the missing DLLs together with a compatible release from Tim Cera.
 I will be checking in the next few days to determine if these problems still exist.  If they now work, I will remove all of these files from the HSPsquared distribution.
+
+## Python Packages (pip install):
+
+* numpy
+* pandas
+* matplotlib
+* numba
+* ipython
+* h5py
+* networkx
+* tables
+* wdmtoolbox (also installed baker, tstoolbox)
+* hspftoolbox
+
+## Optional:
+
+* HDF5 binary utilities from hdfgroup.org
