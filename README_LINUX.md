@@ -16,7 +16,7 @@
 * HDF5 binary utilities from hdfgroup.org
 
 
-##USING HSP2 on Linux and MacOS:
+## USING HSP2 on Linux and MacOS:
  
 The major Python distributions (such as Enthought's Canopy and Anaconda) include version for Windows, Linux, and MacOS.  To use Linux, just download the 64-bit Linux distribution and if necessary use the package manager with your distribution to load the libraries such as pandas, numpy,  matplotlib, numba, etc.   For MacOS (and Linux to a lesser extent), you MUST use a distribution rather than going to the various Github sites and doing your own downloads to avoid messing up your operating system!
  
