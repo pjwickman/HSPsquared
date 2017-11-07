@@ -1,7 +1,9 @@
 All installed with 'pip install'
 
 numpy
+
 pandas
+
 matplotlib
 numba
 ipython
